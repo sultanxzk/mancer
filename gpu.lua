@@ -1919,7 +1919,7 @@ else
 	footerText.Size = UDim2.new(1, -24, 1, 0)
 	footerText.Position = UDim2.new(0, 12, 0, 0)
 	footerText.BackgroundTransparency = 1
-	footerText.Text = "ORION v1.0 | discord.gg/orion | Premium User"
+	footerText.Text = "unsilenced v1.0 | discord.gg/silenced | Premium User"
 	footerText.TextColor3 = Colors.TextFooter
 	footerText.TextSize = sizes.fontSize.footer
 	footerText.Font = Enum.Font.Gotham

@@ -544,7 +544,7 @@ if IS_MOBILE then
 	-- ============================================
 	-- GUI MOBILE (baseada no is-menu original)
 	-- ============================================
-	
+
 	-- Escala para mobile
 	local SCALE = 0.55
 	local MOBILE_SIZES = {
@@ -586,9 +586,9 @@ if IS_MOBILE then
 		},
 		chevronSize = math.floor(10 * SCALE) + 2,
 	}
-	
+
 	local sizes = MOBILE_SIZES
-	
+
 	local screenGui = Instance.new("ScreenGui")
 	screenGui.Name = "ORIONMenu"
 	screenGui.ResetOnSpawn = false
@@ -658,7 +658,7 @@ if IS_MOBILE then
 	duckLogo.Size = UDim2.new(0, sizes.logoSize, 0, sizes.logoSize)
 	duckLogo.Position = UDim2.new(0, 0, 0, 0)
 	duckLogo.BackgroundTransparency = 1
-	duckLogo.Image = "rbxassetid://77012017631835"
+	duckLogo.Image = "rbxassetid://82264532716857"
 	duckLogo.ScaleType = Enum.ScaleType.Fit
 	duckLogo.Parent = logoHolder
 
@@ -1229,7 +1229,7 @@ if IS_MOBILE then
 	toggleIcon.Size = UDim2.new(0, 26, 0, 26)
 	toggleIcon.Position = UDim2.new(0.5, -13, 0.5, -13)
 	toggleIcon.BackgroundTransparency = 1
-	toggleIcon.Image = "rbxassetid://77012017631835"
+	toggleIcon.Image = "rbxassetid://82264532716857d"
 	toggleIcon.Parent = toggleButton
 
 	local menuVisible = true
@@ -1268,7 +1268,7 @@ else
 	-- ============================================
 	-- GUI PC (baseada no is-mobile com tamanhos grandes)
 	-- ============================================
-	
+
 	local PC_SIZES = {
 		mainWidth = 900,
 		mainHeight = 520,
@@ -1308,9 +1308,9 @@ else
 		},
 		chevronSize = 10,
 	}
-	
+
 	local sizes = PC_SIZES
-	
+
 	local screenGui = Instance.new("ScreenGui")
 	screenGui.Name = "ORIONMenu"
 	screenGui.ResetOnSpawn = false
@@ -1379,7 +1379,7 @@ else
 	duckLogo.Size = UDim2.new(0, sizes.logoSize, 0, sizes.logoSize)
 	duckLogo.Position = UDim2.new(0, 0, 0, 0)
 	duckLogo.BackgroundTransparency = 1
-	duckLogo.Image = "rbxassetid://77012017631835"
+	duckLogo.Image = "rbxassetid://82264532716857"
 	duckLogo.ScaleType = Enum.ScaleType.Fit
 	duckLogo.Parent = logoHolder
 
